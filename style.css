@@ -74,12 +74,30 @@ a {
   color: hsl(31, 77%, 52%);
 }
 
+.sedan-link:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
 .suv-link {
   color: hsl(184, 100%, 22%);
 }
 
-.luxury {
+.suv-link:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.luxury-link {
   color: hsl(179, 100%, 13%);
+}
+
+.luxury-link:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
 }
 
 .attribution {
